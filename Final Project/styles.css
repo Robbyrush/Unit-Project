@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* === Page Styles === */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(212, 211, 211);
+}
+
+/* === Div Styles === */
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    outline: 2px solid red; 
+} 
+
+/* === Gameboard styles === */
+
+.gameBoard {
+    display: flex;
+    width: 555px;
+    height: 320px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.boardPiece {
+    display: flex;
+    width: 75px;
+    height: 75px;
+}
+
+.boardPiece img {
+    width: 100%;
+    height: 100%;
+}
+
+.boardPiece img:hover {
+    cursor: pointer;
+}
+
+/* === Button Styles === */
+
+.btnRetry {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
